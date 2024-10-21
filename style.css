@@ -1,0 +1,116 @@
+.carousel-section {
+  max-width: auto; /* Defina o tamanho máximo do carrousel */
+  margin: 0 auto; /* Centralize o carrousel */
+}
+
+.carousel-inner {
+  height: 1000px; /* Defina a altura do carrousel */
+}
+
+.carousel-item img {
+  /*height: 100%; /* Defina a altura da imagem para 100% do carrousel */
+  object-fit: cover; /* Faça com que a imagem cubra todo o espaço do carrousel */
+}
+
+.card img {
+  width: 350px; /* Defina a largura da imagem para 150px */
+  height: 150px; /* Defina a altura da imagem para 150px */
+  object-fit: cover; /* Faça com que a imagem cubra todo o espaço do card */
+  border-radius: 5px; /* Adicione um efeito de arredondamento às bordas da imagem */
+}
+
+.text-muted {
+  color: #999;
+}
+
+.list-unstyled {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.list-unstyled li {
+  margin-bottom: 10px;
+}
+
+.list-unstyled a {
+  text-decoration: none;
+  color: #999;
+}
+
+.list-unstyled a:hover {
+  color: #fff;
+}
+
+.hr-divider {
+  border: 1px solid #ccc;
+  margin: 20px 0;
+}
+
+.card-divider {
+  border-top: 1px solid #ccc;
+  margin-top: 20px;
+  padding-top: 20px;
+}
+
+.carousel-section {
+  margin-bottom: 80px;
+}
+
+.cards-section {
+  margin-top: 80px;
+  margin-bottom: 80px;
+  border-radius: 5px;
+}
+
+.card {
+  transition: transform 0.3s; /* Adiciona uma transição suave */
+}
+
+.card:hover {
+  transform: translateY(-10px); /* Levanta o card em 10px ao passar o mouse */
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2); /* Adiciona uma sombra ao card */
+}
+
+.carousel-section {
+  margin: 0 auto; /* Centralize o carrousel */
+  margin-bottom: 80px;
+}
+
+.footer-section {
+  padding: 20px 0; /* Adiciona espaço acima e abaixo do footer */
+}
+
+.footer-heading {
+  margin-bottom: 15px; /* Espaço abaixo do título do footer */
+}
+
+.footer-section .row {
+  margin-bottom: 20px; /* Espaço entre as colunas do footer */
+}
+
+.footer-section {
+  padding: 20px 0;
+  background-color: #333;
+  color: #fff;
+}
+
+.footer-heading {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.dark-mode {
+  background-color: #333;
+  color: #fff;
+}
+
+.dark-mode .navbar {
+  background-color: #444;
+}
+
+.dark-mode .hero-section {
+  background-color: #555;
+}
+
+/* Adicione mais estilos aqui */
