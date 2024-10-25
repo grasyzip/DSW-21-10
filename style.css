@@ -1,22 +1,30 @@
 .carousel-section {
-  max-width: auto; /* Defina o tamanho máximo do carrousel */
-  margin: 0 auto; /* Centralize o carrousel */
+  max-width: auto; 
+  margin: 0 auto; 
 }
 
 .carousel-inner {
-  height: 1000px; /* Defina a altura do carrousel */
+  height: 1000px;
 }
 
-.carousel-item img {
-  /*height: 100%; /* Defina a altura da imagem para 100% do carrousel */
-  object-fit: cover; /* Faça com que a imagem cubra todo o espaço do carrousel */
+.carousel-section {
+  margin-bottom: 80px;
+}
+
+.carousel-section {
+  margin-bottom: 80px;
 }
 
 .card img {
-  width: 350px; /* Defina a largura da imagem para 150px */
-  height: 150px; /* Defina a altura da imagem para 150px */
-  object-fit: cover; /* Faça com que a imagem cubra todo o espaço do card */
-  border-radius: 5px; /* Adicione um efeito de arredondamento às bordas da imagem */
+  width: 350px; 
+  height: 150px; 
+  object-fit: cover; 
+  border-radius: 5px;
+}
+
+.card-standard {
+  height: 400px; /* Ajuste o valor conforme necessário */
+  margin: auto;
 }
 
 .text-muted {
@@ -53,10 +61,6 @@
   padding-top: 20px;
 }
 
-.carousel-section {
-  margin-bottom: 80px;
-}
-
 .cards-section {
   margin-top: 80px;
   margin-bottom: 80px;
@@ -64,7 +68,7 @@
 }
 
 .card {
-  transition: transform 0.3s; /* Adiciona uma transição suave */
+  transition: transform 0.3s;
 }
 
 .card:hover {
@@ -73,12 +77,16 @@
 }
 
 .carousel-section {
-  margin: 0 auto; /* Centralize o carrousel */
+  margin: 20px; /* Centralize o carrousel */
   margin-bottom: 80px;
 }
 
 .footer-section {
   padding: 20px 0; /* Adiciona espaço acima e abaixo do footer */
+}
+
+.footer-custom {
+  text-align: center; /* Centraliza o texto dentro do rodapé */
 }
 
 .footer-heading {
@@ -87,6 +95,14 @@
 
 .footer-section .row {
   margin-bottom: 20px; /* Espaço entre as colunas do footer */
+}
+
+.footer-section h5 {
+  margin-bottom: 10px; /* Adiciona espaço abaixo do título */
+}
+
+.footer-section p {
+  margin-bottom: 10px; /* Adiciona espaço abaixo dos parágrafos */
 }
 
 .footer-section {
@@ -99,18 +115,3 @@
   font-weight: bold;
   margin-bottom: 10px;
 }
-
-.dark-mode {
-  background-color: #333;
-  color: #fff;
-}
-
-.dark-mode .navbar {
-  background-color: #444;
-}
-
-.dark-mode .hero-section {
-  background-color: #555;
-}
-
-/* Adicione mais estilos aqui */
