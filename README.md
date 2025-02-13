@@ -1,6 +1,6 @@
 # Atividade de Desenvolvimento WEB
 
-Feito no dia 21 doOutubro.
+Feito no dia 21 de Outubro.
 
 
 
